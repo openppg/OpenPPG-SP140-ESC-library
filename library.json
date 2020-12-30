@@ -1,0 +1,24 @@
+{
+    "name": "OpenPPG_SP140_ESC",
+    "description": "Arduino library for SP140 ESC",
+    "keywords": "OpenPPG",
+    "authors": [
+        {
+            "name": "Zach Whitehead",
+            "maintainer": true
+        },
+        {
+            "name": "Braedin Butler"
+        }
+    ],
+    "repository": {
+        "type": "git",
+         "url": "https://github.com/openppg/OpenPPG-SP140-ESC"
+    },
+    "version": "0.0.1",
+    "homepage": "https://openppg.com",
+    "frameworks": "Arduino",
+    "examples": [
+        "examples/*/*.ino"
+    ]
+}
