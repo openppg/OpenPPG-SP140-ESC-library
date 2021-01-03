@@ -64,12 +64,9 @@ void OpenPPG_SP140_ESC::begin(uint32_t baudrate) {
   hwSerial->setTimeout(ESC_TIMEOUT);
 
   volts = 0;
-  prevVolts = 0;
   temperatureC = 0;
   amps = 0;
-  prevAmps = 0;
   kilowatts = 0;
-  prevKilowatts = 0;
   eRPM = 0;
   inPWM = 0;
   outPWM = 0;
